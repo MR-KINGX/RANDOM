@@ -164,7 +164,7 @@ logo=("""\033[1;92m
 \033[1;39m \033[0;93m𝙁𝘼𝘾𝙀𝘽𝙊𝙊𝙆 \033[1;39m: \033[1;33mAB KHANX
 \033[1;39m \033[0;94m𝙁𝘽 𝙂𝙍𝙊𝙐𝙋 \033[1;39m: \033[1;34mMSS TRICKS HOME
 \033[1;39m \033[0;95m𝙎𝘼𝙏𝙐𝙏𝘼𝙎  \033[1;39m: \033[0;92mFREE AND ENJOY
-\033[1;39m \033[0;96m𝙑𝙀𝙍𝙎𝙄𝙊𝙉  \033[1;39m: \033[1;32m1.4
+\033[1;39m \033[0;96m𝙑𝙀𝙍𝙎𝙄𝙊𝙉  \033[1;39m: \033[1;32m1.5
 \033[1;34m--------------------------------------------------""")
 def linex():
 	print('\33[1;37m--------------------------------------------------')
@@ -895,7 +895,7 @@ def cinc():
     linex()
     nmbr = input(f" Put Cinc Number :\033[1;32m ")
     linex()
-    head = {'User-Agent': 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.66 Safari/537.36', 'Accept-Encoding': 'gzip, deflate','Connection': 'keep-alive', 'Content-Length': '16', 'Content-Type': 'application/x-www-form-urlencoded'}
+    head = {'User-Agent': 'Mozilla/5.0 (Linux; Android 10; SM-M105F Build/QP1A.190711.020; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/99.0.4844.58 Mobile Safari/537.36', 'Accept-Encoding': 'gzip, deflate','Connection': 'keep-alive', 'Content-Length': '16', 'Content-Type': 'application/x-www-form-urlencoded'}
     data = {'cnnum': nmbr}
     url = requests.post('https://freepicccs.com/search-result2.php',headers=head,data=data)
     dta = re.findall("\<div(.*?)</table>",str(url.text))
@@ -944,7 +944,7 @@ def zong():
         nmbr = num.replace("03","3")
     else:
         nmbr = num
-    head = {'User-Agent': 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.66 Safari/537.36', 'Accept-Encoding': 'gzip, deflate','Connection': 'keep-alive', 'Content-Length': '16', 'Content-Type': 'application/x-www-form-urlencoded'}
+    head = {'User-Agent': 'Mozilla/5.0 (Linux; Android 8.1.0; SM-M105M Build/M1AJQ; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/103.0.5060.129 Mobile Safari/537.36', 'Accept-Encoding': 'gzip, deflate','Connection': 'keep-alive', 'Content-Length': '16', 'Content-Type': 'application/x-www-form-urlencoded'}
     data = {'cnnum': nmbr}
     url = requests.post('https://freepicccs.com/search-result2.php',headers=head,data=data)
     dta = re.findall("\<div(.*?)</table>",str(url.text))
